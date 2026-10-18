@@ -1,0 +1,505 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>直连 — 节点时间线、票据套餐与对话式 FAQ</title><meta name="description" content="直连以纵向时间线开篇,沿时间顺序呈现节点演进;套餐采用票据式虚线框两栏对照并标注推荐;FAQ 以对话气泡形式陈列,清单式务实口吻,黑白灰配色搭配一处强调色。"><meta name="keywords" content="直连,节点时间线,票据套餐,对话式 FAQ,黑白灰,IPLC,原生流媒体,设备同时在线,工单支持,客户经理"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-de5da42641.nellafantasia.cn/"><meta property="og:type" content="website"><meta property="og:title" content="直连 — 节点时间线、票据套餐与对话式 FAQ"><meta property="og:description" content="直连以纵向时间线开篇,沿时间顺序呈现节点演进;套餐采用票据式虚线框两栏对照并标注推荐;FAQ 以对话气泡形式陈列,清单式务实口吻,黑白灰配色搭配一处强调色。"><meta property="og:url" content="https://p-de5da42641.nellafantasia.cn/"><meta property="og:site_name" content="直连"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-de5da42641.nellafantasia.cn/", "name": "直连 — 节点时间线、票据套餐与对话式 FAQ", "description": "直连以纵向时间线开篇,沿时间顺序呈现节点演进;套餐采用票据式虚线框两栏对照并标注推荐;FAQ 以对话气泡形式陈列,清单式务实口吻,黑白灰配色搭配一处强调色。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="9458eb291b05e9d2065595e9:757f2d51ee9975065098c6497387b5b2428287a3a09732779da65cb2943252c1:3e802bddc8a7fd6fe4a3"></head><body id="top"><style>
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#f4f4f4;color:#111;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+
+/* 强调色:一抹烈橙 */
+:root{--ink:#0d0d0d;--paper:#f4f4f4;--line:#1a1a1a;--muted:#6b6b6b;--soft:#e6e6e6;--accent:#ff5a1f}
+
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+/* 顶栏 — 极细横条,只放跳转锚点 */
+.topbar{position:sticky;top:0;z-index:10;background:rgba(244,244,244,.92);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid #d8d8d8}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;height:44px;font-size:13px}
+.topbar .brand{font-weight:800;letter-spacing:.5px;color:var(--ink)}
+.topbar nav{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end}
+.topbar nav a{color:#333}
+.topbar nav a:hover{color:var(--accent)}
+
+/* HERO — 纵向时间线 */
+.hero{padding:64px 0 48px;border-bottom:1px solid #d8d8d8;background:#f4f4f4}
+.hero .wrap{display:grid;grid-template-columns:1fr;gap:36px}
+.hero h1{font-size:clamp(36px,5.4vw,72px);line-height:1.05;letter-spacing:-1px;margin:0 0 8px;font-weight:900;color:var(--ink)}
+.hero h1 .accent{color:var(--accent)}
+.hero .lede{max-width:640px;font-size:17px;color:#222;margin:0}
+.hero .meta{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-top:18px}
+
+.timeline{margin-top:36px;border-left:2px dashed #9a9a9a;padding-left:24px;display:grid;gap:18px}
+.timeline .step{position:relative}
+.timeline .step::before{content:"";position:absolute;left:-31px;top:8px;width:12px;height:12px;background:#f4f4f4;border:2px solid var(--ink);border-radius:50%}
+.timeline .step time{font-family:"Courier New",monospace;font-size:12px;color:var(--muted);letter-spacing:1px}
+.timeline .step h3{margin:4px 0 4px;font-size:18px;color:var(--ink)}
+.timeline .step p{margin:0;color:#333;font-size:14.5px}
+.timeline .step.now::before{background:var(--accent);border-color:var(--accent)}
+
+/* 区块通用 */
+section{padding:64px 0;border-bottom:1px solid #d8d8d8}
+section h2{font-size:clamp(24px,3vw,34px);letter-spacing:-.5px;margin:0 0 8px;color:var(--ink)}
+section .sub{color:#333;margin:0 0 28px;max-width:680px}
+section .kicker{font-size:12px;letter-spacing:3px;color:var(--muted);text-transform:uppercase;margin-bottom:10px}
+
+/* 票据式卡片 — 虚线框 */
+.ticket{border:1.5px dashed #1a1a1a;background:#fff;padding:22px 22px 18px;border-radius:2px;position:relative}
+.ticket .tag{position:absolute;top:-10px;left:18px;background:var(--ink);color:#fff;font-size:11px;letter-spacing:2px;padding:3px 8px;text-transform:uppercase}
+.ticket .tag.acc{background:var(--accent)}
+.ticket h3{margin:8px 0 6px;font-size:20px;color:var(--ink)}
+.ticket ul{margin:10px 0 14px;padding-left:18px;color:#222}
+.ticket ul li{margin:6px 0;font-size:14.5px}
+.ticket .price{font-family:"Courier New",monospace;font-size:22px;font-weight:700;color:var(--ink)}
+.ticket .annual{font-size:12.5px;color:var(--muted);margin-top:4px}
+.ticket .stamp{position:absolute;top:14px;right:14px;border:1.5px solid var(--accent);color:var(--accent);font-size:10px;letter-spacing:2px;padding:2px 6px;transform:rotate(-6deg)}
+
+/* 套餐 — 两栏对照配推荐 */
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.plans .col{display:grid;gap:20px}
+@media (max-width:760px){.plans{grid-template-columns:1fr}}
+
+/* 使用说明 — 编号大字压底 */
+.how{display:grid;gap:14px}
+.how .row{display:grid;grid-template-columns:64px 1fr;gap:18px;align-items:start;border-top:1px dashed #9a9a9a;padding:18px 6px}
+.how .row:last-child{border-bottom:1px dashed #9a9a9a}
+.how .num{font-family:"Courier New",monospace;font-size:46px;line-height:1;color:var(--accent);font-weight:700}
+.how .row h3{margin:4px 0 6px;font-size:17px;color:var(--ink)}
+.how .row p{margin:0;color:#222;font-size:14.5px}
+
+/* FAQ — 对话气泡 */
+.faq{display:grid;gap:18px;max-width:880px}
+.faq .qa{display:grid;grid-template-columns:64px 1fr;gap:14px;align-items:start}
+.faq .ava{width:44px;height:44px;border-radius:50%;background:#1a1a1a;color:#fff;display:grid;place-items:center;font-weight:700;font-size:14px;letter-spacing:1px}
+.faq .q .bubble{background:#fff;border:1.5px dashed #1a1a1a;padding:12px 14px;display:inline-block;max-width:100%}
+.faq .q .bubble .who{font-size:11px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:4px}
+.faq .a .bubble{background:var(--ink);color:#fff;border:1.5px solid var(--ink);padding:12px 14px;display:inline-block;max-width:100%}
+.faq .a .bubble .who{font-size:11px;letter-spacing:2px;color:#cfcfcf;text-transform:uppercase;margin-bottom:4px}
+.faq .a{margin-top:6px;padding-left:58px}
+
+/* 节点 / 设备兼容表 — 票据列表 */
+.nodes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:760px){.nodes{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.nodes{grid-template-columns:1fr}}
+.nodes .ticket{padding:18px}
+.nodes .ticket h4{margin:6px 0 4px;font-size:16px;color:var(--ink)}
+.nodes .ticket p{margin:0;color:#333;font-size:13.5px}
+
+/* 收尾 — 单色页脚 */
+.foot{padding:36px 0;background:#0d0d0d;color:#cfcfcf;font-size:13px}
+.foot .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
+.foot .dot{display:inline-block;width:8px;height:8px;background:var(--accent);border-radius:50%;margin-right:8px;vertical-align:middle}
+
+/* 主区块容器 — 至少一个 main */
+main{display:block}
+</style><header class="topbar">
+  <div class="wrap">
+    <span class="brand">直连 / ZHI.LIAN</span>
+    <nav aria-label="区块锚点">
+      <a href="#story">节点纪事</a>
+      <a href="#plans">套餐</a>
+      <a href="#how">使用流程</a>
+      <a href="#nodes">节点与设备</a>
+      <a href="#faq">常见问答</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="story">
+  <div class="wrap">
+    <div>
+      <p class="kicker">ISSUE 01 — 直连 · 节点时间线</p>
+      <h1>直连:沿一条时间线,把节点<span class="accent">串成</span>你的日常。</h1>
+      <p class="lede">下面的时间线,记录了直连从一台测试服务器到多区域节点池的演进过程。每一格代表一次线路扩容或一次协议更新,它们共同构成了今天你看到的“直连”。</p>
+      <p class="meta">更新时间:每月 1 日 · 由运营手工整理</p>
+    </div>
+
+    <ol class="timeline" aria-label="直连节点演进时间线">
+      <li class="step">
+        <time>2022 / 03</time>
+        <h3>单节点试运行</h3>
+        <p>在两座城市之间架设首批转发节点,用于内部链路压测;同步建立基础流量计费与设备并发上限逻辑。</p>
+      </li>
+      <li class="step">
+        <time>2022 / 08</time>
+        <h3>三区节点池</h3>
+        <p>扩容至三区节点池,接入普通线路与中转线路双通道;首次引入每月 100GB 流量档位。</p>
+      </li>
+      <li class="step">
+        <time>2023 / 02</time>
+        <h3>原生流媒体解锁</h3>
+        <p>对节点 IP 进行定期轮换,接入原生流媒体解锁能力;同时上线“全节点解锁”档位的雏形。</p>
+      </li>
+      <li class="step">
+        <time>2023 / 09</time>
+        <h3>IPLC 专线引入</h3>
+        <p>开通 IPLC 专线用于游戏与跨境会议场景,延迟敏感型流量从公网中分离出来,形成独立通道。</p>
+      </li>
+      <li class="step now">
+        <time>2024 / 05 — 现在</time>
+        <h3>三档并行 · 设备并发</h3>
+        <p>正式落地基础版、旗舰版、团队版三档并行,设备并发上限分别设置为 3 / 5 / 20 台,并提供工单与客户经理两条支持通道。</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="plans">
+  <div class="wrap">
+    <p class="kicker">PRICING · 票据</p>
+    <h2>三档套餐,左右对照,中间是推荐位</h2>
+    <p class="sub">下面的两张票据分别代表“基础版 / 旗舰版”与“旗舰版 / 团队版”。虚线边框取自票据样式,数字使用等宽字体,方便横向比对同档权益。</p>
+
+    <div class="plans">
+      
+      <div class="col">
+        <article class="ticket">
+          <span class="tag">基础版</span>
+          <p class="price">¥15 / 月</p>
+          <p class="annual">按年付仅需 ¥150 / 年</p>
+          <ul>
+            <li>每月 100GB 极速流量</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体</li>
+            <li>普通线路节点池</li>
+          </ul>
+          <p>适合:轻度浏览、临时差旅、单设备长期挂着。</p>
+        </article>
+
+        <article class="ticket">
+          <span class="tag acc">旗舰版 · 推荐</span>
+          <span class="stamp">RECOMMEND</span>
+          <p class="price">¥35 / 月</p>
+          <p class="annual">按年付仅需 ¥350 / 年</p>
+          <ul>
+            <li>每月 300GB 极速流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7×24 优先工单支持</li>
+          </ul>
+          <p>适合:多设备并行、家中常驻游戏与流媒体。</p>
+        </article>
+      </div>
+
+      
+      <div class="col">
+        <article class="ticket">
+          <span class="tag acc">旗舰版 · 推荐</span>
+          <p class="price">¥35 / 月</p>
+          <p class="annual">按年付仅需 ¥350 / 年</p>
+          <ul>
+            <li>每月 300GB 极速流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7×24 优先工单支持</li>
+          </ul>
+          <p>参照左侧对照,可与基础版对比“流量 / 设备数 / 解锁范围”。</p>
+        </article>
+
+        <article class="ticket">
+          <span class="tag">团队版</span>
+          <p class="price">¥85 / 月</p>
+          <p class="annual">按年付仅需 ¥850 / 年</p>
+          <ul>
+            <li>每月 1000GB 极速流量</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+          <p>适合:小型工作室、多人合住、需要专属客户经理的对公场景。</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <p class="kicker">HOW TO USE · 五步</p>
+    <h2>使用说明:从下单到上线,五步走完</h2>
+    <p class="sub">下面是一个新手第一次使用直连的完整流程。编号沿用时间线的字体风格,方便把它当作一张说明单贴在桌前。</p>
+
+    <div class="how">
+      <div class="row">
+        <div class="num">01</div>
+        <div>
+          <h3>选档</h3>
+          <p>从基础版、旗舰版、团队版中选一档;月付与年付均可,年付在票据底部以等宽字体单独标注。</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="num">02</div>
+        <div>
+          <h3>下单</h3>
+          <p>在下单页面填写账号与邮箱;支付完成后,套餐会以票据形式出现在账户中心,可随时回看。</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="num">03</div>
+        <div>
+          <h3>导入节点</h3>
+          <p>在订阅详情页复制订阅地址,粘贴到你常用的客户端即可;支持一键导入和手动导入两种方式。</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="num">04</div>
+        <div>
+          <h3>选择节点</h3>
+          <p>在客户端节点列表中按延迟排序;游戏玩家建议优先选择带“IPLC”标签的专线节点。</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="num">05</div>
+        <div>
+          <h3>遇到问题就开工单</h3>
+          <p>基础版走普通工单,旗舰版走优先工单,团队版由专属客户经理直接对接;回复时间见各档说明。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="nodes">
+  <div class="wrap">
+    <p class="kicker">NODES · 票据清单</p>
+    <h2>节点与设备兼容:一张票据清单</h2>
+    <p class="sub">下面按区域与设备类型列出常见节点分组。票据上的虚线框表示信息随时可能更新,以客户端实际显示为准。</p>
+
+    <div class="nodes">
+      <article class="ticket">
+        <span class="tag">REGION</span>
+        <h4>常用区域节点</h4>
+        <p>覆盖日常浏览、跨境办公、远程协作等场景;普通线路与中转线路并存,延迟与带宽表现差异较大。</p>
+      </article>
+      <article class="ticket">
+        <span class="tag">IPLC</span>
+        <h4>IPLC 专线节点</h4>
+        <p>面向游戏加速与视频会议;专线通道与公网隔离,适合对延迟敏感的实时业务。</p>
+      </article>
+      <article class="ticket">
+        <span class="tag">STREAM</span>
+        <h4>原生流媒体节点</h4>
+        <p>按区域分配原生 IP,支持常见海外流媒体平台的地区内容解锁;旗舰版及以上全节点可用。</p>
+      </article>
+      <article class="ticket">
+        <span class="tag">DEVICE</span>
+        <h4>桌面设备</h4>
+        <p>常见桌面系统均可通过订阅地址一键导入;建议在客户端开启“按延迟自动选择”。</p>
+      </article>
+      <article class="ticket">
+        <span class="tag">DEVICE</span>
+        <h4>移动设备</h4>
+        <p>手机与平板使用同一订阅地址即可;注意后台策略可能影响长连接,建议在客户端中开启保活。</p>
+      </article>
+      <article class="ticket">
+        <span class="tag">DEVICE</span>
+        <h4>路由器 / 旁路</h4>
+        <p>在支持订阅的路由器固件中粘贴订阅地址,即可对家中设备统一下发;并发数以套餐档位为准。</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <p class="kicker">FAQ · 对话气泡</p>
+    <h2>常见问答:左侧是用户,右侧是直连</h2>
+    <p class="sub">下面这一组问答以对话气泡的形式呈现。先是用户提问,再是直连的清单式回答;点击问题本身可以折叠或展开。</p>
+
+    <div class="faq">
+
+      <details>
+        <summary>
+          <div class="qa">
+            <div class="ava">U</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">用户</div>
+                我手上有两台电脑、一部手机、一台平板,该选哪一档?
+              </div>
+            </div>
+          </div>
+        </summary>
+        <div class="a">
+          <div class="qa">
+            <div class="ava">直</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">直连</div>
+                设备数 4 台,落在“旗舰版”5 台上限之内。给一个清单:
+                <ul>
+                  <li>日常浏览、视频为主:基础版 3 台不够,建议直接选旗舰版。</li>
+                  <li>偶尔游戏、对延迟敏感:优先用带 “IPLC” 标签的节点。</li>
+                  <li>多人共用同一账号:按并发设备上限挑档,不要靠“换设备登录”来绕。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <div class="qa">
+            <div class="ava">U</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">用户</div>
+                套餐里的“极速流量”到底是什么?用完会怎样?
+              </div>
+            </div>
+          </div>
+        </summary>
+        <div class="a">
+          <div class="qa">
+            <div class="ava">直</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">直连</div>
+                简单列一下:
+                <ul>
+                  <li>“极速流量”是当月可用的高优先级配额,基础版 100GB / 旗舰版 300GB / 团队版 1000GB。</li>
+                  <li>用完之后,默认进入限速状态,而不是立刻断网,具体限速阈值以客户端提示为准。</li>
+                  <li>下个账期 1 日 0 点重置;不会因为未用完而结转。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <div class="qa">
+            <div class="ava">U</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">用户</div>
+                “IPLC 专线”适合我玩某款对战游戏吗?
+              </div>
+            </div>
+          </div>
+        </summary>
+        <div class="a">
+          <div class="qa">
+            <div class="ava">直</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">直连</div>
+                如果你玩的游戏服务器在海外、对延迟敏感,可以试试;清单式说明:
+                <ul>
+                  <li>IPLC 专线把游戏流量从公网中分离出来,跨城段波动更小。</li>
+                  <li>仅在旗舰版及以上套餐中提供,基础版不可用。</li>
+                  <li>实际体验取决于你所在城市、游戏服务器所在地与家中的网络状况。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <div class="qa">
+            <div class="ava">U</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">用户</div>
+                年付和月付怎么选更划算?会不会有中途涨价?
+              </div>
+            </div>
+          </div>
+        </summary>
+        <div class="a">
+          <div class="qa">
+            <div class="ava">直</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">直连</div>
+                直接给你一个对比清单:
+                <ul>
+                  <li>基础版:月付 ¥15 × 12 = ¥180;年付 ¥150,相当于省下一个月的费用。</li>
+                  <li>旗舰版:月付 ¥35 × 12 = ¥420;年付 ¥350,差额更大,长期使用建议年付。</li>
+                  <li>团队版:月付 ¥85 × 12 = ¥1020;年付 ¥850,适合预算确定的小型团队。</li>
+                  <li>年付周期内若价格调整,已付款的订单按原订单价格执行,不会追差价补缴。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <div class="qa">
+            <div class="ava">U</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">用户</div>
+                工单一般多久能回复?团队版的“客户经理”是真的吗?
+              </div>
+            </div>
+          </div>
+        </summary>
+        <div class="a">
+          <div class="qa">
+            <div class="ava">直</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">直连</div>
+                列清楚:
+                <ul>
+                  <li>基础版:走普通工单通道,按提交顺序处理。</li>
+                  <li>旗舰版:7×24 优先工单,响应速度优于普通通道。</li>
+                  <li>团队版:在订单生效后会指定一位客户经理,负责工单与定制路由的对接。</li>
+                  <li>具体回复时长受工单量影响,以工单系统显示的“预计响应”为准。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <div class="qa">
+            <div class="ava">U</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">用户</div>
+                如果我不续费了,已经导入到客户端的订阅地址会立刻失效吗?
+              </div>
+            </div>
+          </div>
+        </summary>
+        <div class="a">
+          <div class="qa">
+            <div class="ava">直</div>
+            <div class="q">
+              <div class="bubble">
+                <div class="who">直连</div>
+                不会立刻断网,而是按下面的顺序收口:
+                <ul>
+                  <li>到期后,套餐状态变为“已过期”,节点仍可能短暂可用,具体以上次刷新时间为准。</li>
+                  <li>进入下一个账期仍未续费,订阅地址被服务端停用,客户端无法再拉到可用节点。</li>
+                  <li>账户内的历史工单与流量记录会保留一段时间,留出缓冲以便补缴或导出。</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div><span class="dot"></span>直连 · 以时间线串起每一次线路扩容</div>
+    <div>本页配色:黑白灰 + 一处橙色强调</div>
+  </div>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
